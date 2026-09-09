@@ -1,0 +1,38 @@
+body {
+    padding: 0%; 
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(164, 81, 241);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius:0 0 30px 30px;
+    height:90px ;
+}
+
+header h1 {
+        margin: 0;
+
+}
+
+header p {
+    margin: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.svginstagram {
+    height: 100px;
+    margin-top: -94px
+    ;
+}
