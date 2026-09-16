@@ -9,16 +9,18 @@ header {
     padding: 20px;
     text-align: center;
     border-radius:0 0 30px 30px;
-    height:90px ;
+    min-height: 90px;
+
+   
 }
 
 header h1 {
-        margin: 0;
+        margin: 0 0 15px 0;
 
 }
 
 header p {
-    margin: 10px 0;
+    margin: 0 0 15px 0;
 }
 
 nav a {
@@ -32,7 +34,33 @@ nav a:hover {
     text-decoration: underline;
 }
 .svginstagram {
-    height: 100px;
-    margin-top: -94px
-    ;
+   width: 100px;
+   height: 160px;
+   margin-top: -150px;
+   margin-left: 25px;
+   
+}
+
+button {
+    background-color: rgb(164, 81, 241);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+
+    button:hover {
+    transform: scale(0.8);
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
 }
